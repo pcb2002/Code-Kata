@@ -4,6 +4,11 @@ out/
 !**/src/test/**/out/
 .kotlin
 
+# IDEs
+.idea/
+*.iml
+.vscode/
+
 ### Eclipse ###
 .apt_generated
 .classpath
@@ -22,9 +27,6 @@ bin/
 /dist/
 /nbdist/
 /.nb-gradle/
-
-### VS Code ###
-.vscode/
 
 ### Mac OS ###
 .DS_Store
