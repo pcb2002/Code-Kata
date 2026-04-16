@@ -8,7 +8,7 @@ public class Solution_1 {
     }
     public static String solution(String s) {
         String answer = "";
-        String[] words = s.split(" ");
+        String[] words = s.split(" ", -1);
         for (int n = 0; n < words.length; n++) {
             String word = words[n];
             for (int i = 0; i < word.length(); i++) {
